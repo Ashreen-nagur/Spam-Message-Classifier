@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Sample dataset
 data = {
     "message": [
         "Congratulations! You won a prize",
@@ -16,29 +15,24 @@ data = {
     ]
 }
 
-# Create DataFrame
-df = pd.DataFrame(data)
+spam_data = pd.DataFrame(data)
 
-# Display dataset
-print("Dataset:")
-print(df)
+print("Spam Dataset")
+print(spam_data)
 
-# Check missing values
-print("\nMissing Values:")
-print(df.isnull().sum())
+print("\nMissing Values")
+print(spam_data.isnull().sum())
 
-# Remove duplicate rows
-df = df.drop_duplicates()
+spam_data = spam_data.drop_duplicates()
 
-print("\nDataset after removing duplicates:")
-print(df)
+print("\nAfter Removing Duplicates")
+print(spam_data)
 
-# Features and Labels
-X = df["message"]
-y = df["label"]
+messages = spam_data["message"]
+labels = spam_data["label"]
 
-print("\nFeatures:")
-print(X)
+print("\nMessages")
+print(messages)
 
-print("\nLabels:")
-print(y)
+print("\nLabels")
+print(labels)
