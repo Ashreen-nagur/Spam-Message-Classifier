@@ -16,3 +16,21 @@ Learn Pandas basics, understand features and labels, and perform basic data clea
 - Python
 - Pandas
 - GitHub
+
+## Week 2 - Linear Regression
+
+### Objective
+Build a simple regression model using Linear Regression and learn how to split data and evaluate the model.
+
+### Topics Covered
+- Linear Regression
+- Train/Test Split
+- Model Training
+- Predictions
+- Evaluation Metrics
+
+### Tools Used
+- Python
+- Pandas
+- Scikit-learn
+- GitHub
