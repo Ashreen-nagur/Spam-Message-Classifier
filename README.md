@@ -34,3 +34,22 @@ Build a simple regression model using Linear Regression and learn how to split d
 - Pandas
 - Scikit-learn
 - GitHub
+
+## Week 3 - Spam Message Classifier
+
+## Objective
+
+Build a simple spam message classifier using text preprocessing, TF-IDF, and Naive Bayes.
+
+## Topics Covered
+- Text Preprocessing
+- TF-IDF
+- Naive Bayes
+- Spam Classification
+- Model Accuracy
+
+## Tools Used
+- Python
+- Pandas
+- Scikit-learn
+- GitHub
